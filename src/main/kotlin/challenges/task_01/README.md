@@ -23,4 +23,4 @@
 
 #
 
-**To test go to:** _src/test/kotlin/challenges/task_01/UltimaParadaTests.java_
+**Caminho para os testes deste desafio:** _src/test/kotlin/challenges/task_01/UltimaParadaTests.java_
