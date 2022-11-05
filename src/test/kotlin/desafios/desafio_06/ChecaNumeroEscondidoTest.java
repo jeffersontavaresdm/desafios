@@ -16,15 +16,15 @@ public class ChecaNumeroEscondidoTest {
   @Test
   public void verificaSeONumeroEstaOcultoEmOutro_02() {
     boolean expectativa = false;
-    boolean resultado = Desafio.checaNumeroEscondido(2468, 149);
+    boolean resultado = Desafio.checaNumeroEscondido(12345, 153);
 
     Assertions.assertEquals(expectativa, resultado);
   }
 
   @Test
   public void verificaSeONumeroEstaOcultoEmOutro_03() {
-    boolean expectativa = false;
-    boolean resultado = Desafio.checaNumeroEscondido(12345, 154);
+    boolean expectativa = true;
+    boolean resultado = Desafio.checaNumeroEscondido(12345, 135);
 
     Assertions.assertEquals(expectativa, resultado);
   }

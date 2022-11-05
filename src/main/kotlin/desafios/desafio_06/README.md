@@ -13,8 +13,8 @@
 <h3>Exemplos:</h3>
 
 - _checaNumeroEscondido(12345, 235)_ → **true**
-- _checaNumeroEscondido(2468, 149)_ → **false**
-- _checaNumeroEscondido(12345, 154)_ → **false**
+- _checaNumeroEscondido(12345, 153)_ → **false**
+- _checaNumeroEscondido(12345, 135)_ → **true**
 
 #
 
