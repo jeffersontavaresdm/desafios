@@ -1,6 +1,6 @@
 <h1 align="center">Desafios</h1>
 
-### Repositorio destinado a compartilhar alguns desafios de lógica em Java.
+### Repositório destinado a compartilhar alguns desafios de lógica em Java.
 #### OBS: Desafios já resolvidos mas sinta-se a vontade para criar suas soluções para os problemas.
 
 #### Ajude a melhorar o repositório!
