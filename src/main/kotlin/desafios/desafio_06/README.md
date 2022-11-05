@@ -3,7 +3,9 @@
 <h3>DESAFIO:</h3>
 
 **Dizemos que um número natural X esconde o Y quando, ao apagar alguns algarismos de X, o número Y aparece.**
+<br>
 **Por exemplo, o número 12345 esconde o número 235, uma vez que pode ser obtido ao apagar os números 1 e 4.**
+<br>
 **Por outro lado, ele não esconde o número 154.**
 
 ![imagem do desafio 6](https://github.com/jeffersontavaresdm/desafios/blob/main/src/main/resources/desafio_06-img.png)
