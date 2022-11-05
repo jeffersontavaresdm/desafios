@@ -1,6 +1,6 @@
 #
 
-<h3>PROBLEM:</h3>
+<h3>DESAFIO:</h3>
 
 **Você e seu time estão desenvolvendo um sistema de indicações de postos de gasolina que ficam próximos da localização atual do veículo.**
 **No modo de direção “viagem”, a funcionalidade a ser desenvolvida é de indicar ao condutor o posto mais distante possível dentro do limite atual de combustível.**
