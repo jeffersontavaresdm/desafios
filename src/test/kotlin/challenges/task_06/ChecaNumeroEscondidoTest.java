@@ -6,14 +6,6 @@ import org.junit.jupiter.api.Test;
 public class ChecaNumeroEscondidoTest {
 
   @Test
-  public void verificaSeONumeroEstaOcultoEmOutro_00() {
-    boolean expectativa = true;
-    boolean resultado = Challenge.checaNumeroEscondido(2131313, 21);
-
-    Assertions.assertEquals(expectativa, resultado);
-  }
-
-  @Test
   public void verificaSeONumeroEstaOcultoEmOutro_01() {
     boolean expectativa = true;
     boolean resultado = Challenge.checaNumeroEscondido(12345, 235);
