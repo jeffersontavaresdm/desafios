@@ -15,8 +15,8 @@ public class CalculaTotalLedsTest {
 
   @Test
   public void calculaTotalLeds_02() {
-    Integer expectativa = 15;
-    Integer resultado = Desafio.calculaTotalLeds(2, 4);
+    Integer expectativa = 24;
+    Integer resultado = Desafio.calculaTotalLeds(3, 5);
 
     Assertions.assertEquals(expectativa, resultado);
   }
