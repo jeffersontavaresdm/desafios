@@ -11,7 +11,7 @@
 
 **Considerando um painel de 'n' por 'm' centímetros, desenvolva um código para calcular o número total de LEDs no painel.**
 
-![imagem do desafio 7](https://github.com/jeffersontavaresdm/desafios/tree/main/src/main/resources/desafio_07-img.png)
+![imagem do desafio 7](https://github.com/jeffersontavaresdm/desafios/blob/main/src/main/resources/desafio_07-img.png)
 
 **OBS: Os valores da altura e da largura devem ser recebidos por parâmetros**
 
