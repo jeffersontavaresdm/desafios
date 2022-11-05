@@ -18,8 +18,8 @@
 <h3>Exemplos:</h3>
 
 - _calculaTotalLeds(2, 3)_ → **12**
-- _calculaTotalLeds(0, 0)_ → **??**
-- _calculaTotalLeds(0, 0)_ → **??**
+- _calculaTotalLeds(2, 4)_ → **15**
+- _calculaTotalLeds(0, 1000)_ → **0**
 
 #
 

@@ -14,10 +14,20 @@ package desafios.desafio_07;
  * <p>
  * OBS: Os valores da altura e da largura devem ser recebidos por parâmetros
  */
-public class Challenge {
+public class Desafio {
 
   public static Integer calculaTotalLeds(Integer altura, Integer largura) {
+    int ledsPorAltura;
+    int ledsPorLargura;
 
-    return -1;
+    if (altura == 1) ledsPorAltura = 2;
+    else if (altura > 1) ledsPorAltura = altura + 1;
+    else ledsPorAltura = 0;
+
+    if (largura == 1) ledsPorLargura = 2;
+    else if (largura > 1) ledsPorLargura = largura + 1;
+    else ledsPorLargura = 0;
+
+    return ledsPorAltura * ledsPorLargura;
   }
 }

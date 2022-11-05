@@ -1,3 +1,3 @@
 package desafios.desafio_08;
 
-public class Challenge {}
+public class Desafio {}

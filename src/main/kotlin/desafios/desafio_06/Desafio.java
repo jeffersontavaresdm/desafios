@@ -5,7 +5,8 @@ package desafios.desafio_06;
  * Por exemplo, o número 12345 esconde o número 235, dado que pode ser obtido ao apagar os números 1 e 4.
  * Por outro lado, ele não esconde o número 154.
  * <p>
- * IMAGEM: [{1}, 2, 3, {4}, 5]. Os numeros nas chaves estão com riscos vermelhos.
+ * IMAGEM: src/main/resources/desafio_06-img.png
+ * <p>
  * A imagem demonstra números: [1, 2, 3, 4, 5] todos estão em azul, mas o número 1 e 4 estão com um risco vermelho.
  * <p>
  * Escreva um código que recebe dois números e que retorna um booleano dizendo se o primeiro esconde o segundo.
