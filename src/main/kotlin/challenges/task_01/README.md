@@ -16,10 +16,11 @@
 #
 
 <h3>Exemplos:</h3>
+
 - _ultimaParada(2, 8, Arrays.asList(2, 15, 22, 10))_ → **15**
 - _ultimaParada(2, 8, Arrays.asList(2, 15, 22, 10))_ → **45**
 - _ultimaParada(2, 8, Arrays.asList(2, 15, 22, 10))_ → **-1**
 
 #
 
-**To test go to:** _test/third_party_challenges/lists/SortedListTest.java_
+**To test go to:** _src/test/kotlin/challenges/task_01/UltimaParadaTests.java_
