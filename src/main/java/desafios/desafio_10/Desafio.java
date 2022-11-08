@@ -30,12 +30,7 @@ public class Desafio {
     return embaralhar(x, 0, musicasTocadas, new ArrayList<>(musicasTocadas.size()));
   }
 
-  private static List<Integer> embaralhar(
-    int z,
-    int y,
-    List<Integer> musicasTocadas,
-    List<Integer> musicasEmbaralhadas
-  ) {
+  private static List<Integer> embaralhar(int z, int y, List<Integer> musicasTocadas, List<Integer> musicasEmbaralhadas) {
     if (z > 0) {
       musicasTocadas.sort(Comparator.reverseOrder());
       musicasEmbaralhadas.add(musicasTocadas.get(y));
