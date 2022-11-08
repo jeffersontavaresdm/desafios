@@ -36,20 +36,17 @@ public class Desafio {
     double VQR2 = Double.parseDouble(vqr2);
 
     String resultado;
-    double distancia = 0.0;
 
     if (TF1 < TF2 && VQR1 > VQR2 || TF1 > TF2 && VQR1 < VQR2) {
+      double distancia = 0.0;
+
       while (TF1 + (VQR1 * distancia) < TF2 + (VQR2 * distancia)) {
         distancia = distancia + 0.001;
       }
 
       distancia = Double.parseDouble(new DecimalFormat("0.00").format(distancia));
 
-      if (distancia < distancia + 0.01) {
-        resultado = "Empresa 1 quando a distância < " + distancia + ", Tanto faz quando a distância = " + distancia + ", Empresa 2 quando a distância > " + distancia;
-      } else {
-        resultado = "Empresa 2 quando a distância < " + distancia + ", Tanto faz quando a distância = " + distancia + ", Empresa 1 quando a distância > " + distancia;
-      }
+      resultado = "Empresa 1 quando a distância < " + distancia + ", Tanto faz quando a distância = " + distancia + ", Empresa 2 quando a distância > " + distancia;
     } else {
       if (TF1 < TF2 && VQR1 < VQR2) {
         resultado = "Empresa 1";
