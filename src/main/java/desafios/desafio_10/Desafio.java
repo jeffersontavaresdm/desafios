@@ -25,25 +25,30 @@ public class Desafio {
     if (musicasTocadas.size() == 0) return Collections.emptyList();
     if (musicasTocadas.size() == 1) return musicasTocadas;
 
-    return embaralhar(musicasTocadas);
+    var x = musicasTocadas.size() % 2 != 0 ? (musicasTocadas.size() / 2) + 1 : musicasTocadas.size() / 2;
+
+    return embaralhar(x, 0, musicasTocadas, new ArrayList<>(musicasTocadas.size()));
   }
 
-  private static List<Integer> embaralhar(List<Integer> musicasTocadas) {
-    List<Integer> musicasOrganizadas = new ArrayList<>(musicasTocadas.size());
-
-    int size = musicasTocadas.size() / 2;
-    if (musicasTocadas.size() % 2 != 0) size = (musicasTocadas.size() / 2) + 1;
-    for (int i = 0; i < size; i++) {
+  private static List<Integer> embaralhar(
+    int z,
+    int y,
+    List<Integer> musicasTocadas,
+    List<Integer> musicasEmbaralhadas
+  ) {
+    if (z > 0) {
       musicasTocadas.sort(Comparator.reverseOrder());
-      musicasOrganizadas.add(musicasTocadas.get(i));
+      musicasEmbaralhadas.add(musicasTocadas.get(y));
       musicasTocadas.sort(Comparator.naturalOrder());
-      musicasOrganizadas.add(musicasTocadas.get(i));
+      musicasEmbaralhadas.add(musicasTocadas.get(y));
+
+      embaralhar(z - 1, y + 1, musicasTocadas, musicasEmbaralhadas);
     }
 
     List<Integer> resultado = new ArrayList<>(musicasTocadas.size());
 
     for (int i = 0; i < musicasTocadas.size(); i++) {
-      resultado.add(musicasOrganizadas.get(i));
+      resultado.add(musicasEmbaralhadas.get(i));
     }
 
     return resultado;
