@@ -64,4 +64,12 @@ public class ShuffleMusicasTests {
 
     Assertions.assertEquals(expectativa, resultado);
   }
+
+  @Test
+  public void shuffleMusicasTest_08() {
+    List<Integer> expectativa = Arrays.asList(10, 0, 9, 1, 8, 2, 7, 3, 6, 4, 5);
+    List<Integer> resultado = Desafio.shuffleMusicas(Arrays.asList(7, 6, 2, 0, 5, 9, 3, 1, 10, 4, 8));
+
+    Assertions.assertEquals(expectativa, resultado);
+  }
 }
