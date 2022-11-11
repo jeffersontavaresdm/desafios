@@ -60,4 +60,4 @@
 
 #
 
-**Caminho para os testes deste desafio:** _src/test/kotlin/desafios/desafio_05/CalculaPorcentagemSorteioTests.java_
+**Caminho para os testes deste desafio:** [_só clicar aqui :D_](https://github.com/jeffersontavaresdm/desafios/tree/main/src/test/java/desafios/desafio_05)

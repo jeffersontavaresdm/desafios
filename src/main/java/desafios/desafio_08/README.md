@@ -51,4 +51,4 @@
 
 #
 
-**Caminho para os testes deste desafio:** _src/test/kotlin/desafios/desafio_08/EscolheTaxiTests.java_
+**Caminho para os testes deste desafio:** [_só clicar aqui :D_](https://github.com/jeffersontavaresdm/desafios/tree/main/src/test/java/desafios/desafio_08)
