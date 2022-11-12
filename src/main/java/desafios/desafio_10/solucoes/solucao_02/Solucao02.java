@@ -26,6 +26,12 @@ public class Solucao02 {
     System.out.println("\nLISTA-LIGADA EMBARALHADA:");
     imprimir(listaLigada);
 
+    organizarValores(musicasTocadas, listaLigada);
+
+    return musicasTocadas;
+  }
+
+  private static void organizarValores(List<Integer> musicasTocadas, List<No> listaLigada) {
     Collections.fill(musicasTocadas, null);
 
     No no = null;
@@ -35,8 +41,6 @@ public class Solucao02 {
 
       musicasTocadas.set(i, no.getValor());
     }
-
-    return musicasTocadas;
   }
 
   private static void manipularListaLigada(List<No> listaLigada) {
