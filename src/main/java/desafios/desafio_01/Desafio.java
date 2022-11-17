@@ -1,8 +1,9 @@
 package desafios.desafio_01;
 
-import java.util.Comparator;
+import desafios.desafio_01.solucoes.solucao_01.Solucao01;
+import desafios.desafio_01.solucoes.solucao_02.Solucao02;
+
 import java.util.List;
-import java.util.Optional;
 
 /**
  * Você e seu time estão desenvolvendo um sistema de indicações de postos de gasolina que ficam próximos da localização atual do veículo.
@@ -24,12 +25,11 @@ public class Desafio {
     Integer consumo,
     List<Integer> postosDeGasolina
   ) {
-    Optional<Integer> posto = postosDeGasolina
-      .stream()
-      .sorted(Comparator.reverseOrder())
-      .filter(distancia -> distancia <= (combustivel * consumo))
-      .findFirst();
+    //    var resultado = Solucao01.solucao(combustivel, consumo, postosDeGasolina);
+    var resultado = Solucao02.solucao(combustivel, consumo, postosDeGasolina);
 
-    return posto.orElse(-1);
+    System.out.println("RESULTADO: " + resultado);
+
+    return resultado;
   }
 }
