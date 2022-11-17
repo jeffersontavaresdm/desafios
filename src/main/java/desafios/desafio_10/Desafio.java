@@ -1,6 +1,6 @@
 package desafios.desafio_10;
 
-import desafios.desafio_10.solucoes.solucao_02.Solucao02;
+import desafios.desafio_10.solucoes.solucao_01.Solucao01;
 
 import java.util.List;
 
@@ -21,11 +21,7 @@ import java.util.List;
 public class Desafio {
 
   public static List<Integer> shuffleMusicas(List<Integer> musicasTocadas) {
-    //    var resultado = Solucao01.solucao(musicasTocadas);
-    var resultado = Solucao02.solucao(musicasTocadas);
-
-    System.out.println("\nRESULTADO: " + resultado);
-
-    return resultado;
+    return Solucao01.solucao(musicasTocadas);
+    //    return Solucao02.solucao(musicasTocadas);
   }
 }

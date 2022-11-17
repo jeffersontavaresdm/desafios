@@ -25,11 +25,7 @@ public class Desafio {
     Integer consumo,
     List<Integer> postosDeGasolina
   ) {
-    //    var resultado = Solucao01.solucao(combustivel, consumo, postosDeGasolina);
-    var resultado = Solucao02.solucao(combustivel, consumo, postosDeGasolina);
-
-    System.out.println("RESULTADO: " + resultado);
-
-    return resultado;
+    return Solucao01.solucao(combustivel, consumo, postosDeGasolina);
+    //    return Solucao02.solucao(combustivel, consumo, postosDeGasolina);
   }
 }
