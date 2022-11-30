@@ -22,7 +22,8 @@
 **após operação 02: [0, 1, 2, 3, 5, 4, 6, 7, 8, 9]**
 <br>
 **após operação 03: [0, 1, 2, 6, 4, 5, 3, 7, 8, 9]**
-<br>
+
+![imagem do desafio 11](https://github.com/jeffersontavaresdm/desafios/blob/main/src/main/resources/desafio_11-img.png)
 
 **Na primeira operação, todos os elementos são invertidos.**
 <br>
@@ -56,8 +57,6 @@
 **Inverta arr[0] a arr[2]: arr = [3, 2, 1].**<br>
 **Inverta arr[1] a arr[2]: arr = [3, 1, 2].**<br>
 **Inverta arr[0] até arr[2]: arr = [2, 1, 3].**<br>
-
-![imagem do desafio 11](https://github.com/jeffersontavaresdm/desafios/blob/main/src/main/resources/desafio_11-img.png)
 
 <h3>Exemplos:</h3>
 
