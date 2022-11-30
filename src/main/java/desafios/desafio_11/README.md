@@ -10,18 +10,14 @@
 <br>
 **Inverta o subarray entre esses índices baseados em zero, inclusive.**
 
-**Exemplo:**
+**Exemplos:**
 <br>
 **array = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]**
 <br>
-**operações = [[0, 9], [4, 5], [3, 6]]**
-<br>
+**operações: [[0, 9], [4, 5], [3, 6], [2, 7], [1, 8], [0, 9]]**
 
-**após operação 01: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]**
-<br>
-**após operação 02: [0, 1, 2, 3, 5, 4, 6, 7, 8, 9]**
-<br>
-**após operação 03: [0, 1, 2, 6, 4, 5, 3, 7, 8, 9]**
+**Exemplo 2:**
+**Na imagem, dada as operações
 
 ![imagem do desafio 11](https://github.com/jeffersontavaresdm/desafios/blob/main/src/main/resources/desafio_11-img.png)
 
@@ -66,4 +62,5 @@
 
 #
 
-**Caminho para os testes deste desafio:** [_só clicar aqui :D_](https://github.com/jeffersontavaresdm/desafios/tree/main/src/test/java/desafios/desafio_11)
+**Caminho para os testes deste desafio:** [_só clicar aqui :
+D_](https://github.com/jeffersontavaresdm/desafios/tree/main/src/test/java/desafios/desafio_11)
