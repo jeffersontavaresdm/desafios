@@ -16,9 +16,6 @@
 <br>
 **operações: [[0, 9], [4, 5], [3, 6], [2, 7], [1, 8], [0, 9]]**
 
-**Exemplo 2:**
-**Na imagem, dada as operações
-
 ![imagem do desafio 11](https://github.com/jeffersontavaresdm/desafios/blob/main/src/main/resources/desafio_11-img.png)
 
 **Na primeira operação, todos os elementos são invertidos.**
