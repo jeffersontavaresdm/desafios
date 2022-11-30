@@ -18,11 +18,9 @@
 
 ![imagem do desafio 11](https://github.com/jeffersontavaresdm/desafios/blob/main/src/main/resources/desafio_11-img.png)
 
-**Na primeira operação, todos os elementos são invertidos.**
+**Na primeira operação, todos os elementos são invertidos. Não há elementos à direita ou à esquerda.**
 <br>
-**Não há elementos à direita ou à esquerda. Na segunda operação, apenas os elementos da coluna "To Reverse" são invertidos.**
-<br>
-**Aqueles à esquerda e à direita permanecem os mesmos.**
+**Na segunda operação, apenas os elementos da coluna "To Reverse" são invertidos. Aqueles à esquerda e à direita permanecem os mesmos.**
 <br>
 **Lógica semelhante é aplicada para outras operações.**
 <br>
