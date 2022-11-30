@@ -10,7 +10,7 @@
 <br>
 **Inverta o subarray entre esses índices baseados em zero, inclusive.**
 
-**Exemplos:**
+**Exemplo:**
 <br>
 **array = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]**
 <br>
